@@ -1,0 +1,7 @@
+services:
+  mocha_server:
+    image: node
+    build: .
+    ports:
+      - "3000:3000"
+    command: npm start
